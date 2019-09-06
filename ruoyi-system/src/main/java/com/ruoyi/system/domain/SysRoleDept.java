@@ -15,6 +15,12 @@ public class SysRoleDept
     
     /** 部门ID */
     private Long deptId;
+    public SysRoleDept() {
+    }
+    public SysRoleDept(Long roleId, Long deptId) {
+        this.roleId = roleId;
+        this.deptId = deptId;
+    }
 
     public Long getRoleId()
     {
@@ -35,6 +41,7 @@ public class SysRoleDept
     {
         this.deptId = deptId;
     }
+
 
     @Override
     public String toString() {

@@ -41,4 +41,6 @@ public interface SysRoleDeptMapper
      * @return 结果
      */
     public int batchRoleDept(List<SysRoleDept> roleDeptList);
+
+    void saveDeptBatch(List<SysRoleDept> deptList);
 }
